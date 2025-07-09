@@ -1,47 +1,29 @@
-.btn{
-    background-color: white;
+
+:root{
+    --element-first:red;
+    --element-second:blue;
+    --element-thirth:green;
 }
 
-
-
-
-
-
-
-
-
-
-/*p{
-    font-size: 12px;
-}
-p{
-    font-size: 40px;
+body{
+    font-size: 10px;
 }
 
-
-.btn{
-    border: 2px solid red;
-    background-color: blue;
-    color: red;
-    font-size: 32px;
+.element1{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background: var(--element-first);
 }
-.btn__secondary{
-background-color: white;
-    color: green;
-    text-decoration: underline;
+.element2{
+    width: 9.375em;
+    height: 9.375em;
+    margin: 0.625em;
+    background: var(--element-second);
 }
-.btn__three{
-    border: none;
-    background-color: #04a5fd;
-    color: black;
-    text-decoration: underline;
-
-}*/
-
-
-/*.text{*/
-/*    color: darkgrey;*/
-/*    font-size: 36px;*/
-/*    border: 1px solid orange;*/
-/*    padding: 8px;*/
-/*}*/
+.element3{
+    width: 9.375rem;
+    height: 9.375rem;
+    margin: 0.625em;
+    background: var(--element-thirth);
+}
