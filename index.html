@@ -7,9 +7,37 @@
     <title>Vite + React</title>
   </head>
   <body>
-  <div class="element1"></div>
-  <div class="element2"></div>
-  <div class="element3"></div>
+  <h2>Bezpośredni nagłówek H2</h2>
+
+  <!-- 2. div bezpośrednio w div.module -->
+  <div>Bezpośredni div 1</div>
+  <div>
+    <!-- 3. h2 w divach bezpośrednich w div.module -->
+    <h2 class="Rome">H2 w bezpośrednim divie</h2>
+  </div>
+
+  <!-- 4. p bezpośrednio po h2 -->
+  <p>P bezpośrednio po h2</p>
+  <p>Drugi paragraf po h2</p>
+  <p>Trzeci paragraf po h2</p> <!-- 5. tylko trzeci p po h2 -->
+
+  <!-- 6. p po pierwszym h2 (ale nie w zagnieżdżonym div) -->
+  <p>Po pierwszym h2, ale nie w zagnieżdżonym div</p>
+  <div>
+    <p>Zagnieżdżony p – NIE wybierany</p>
+  </div>
+
+  <!-- 7. h2 tylko w pierwszym zagnieżdżonym div -->
+  <div>
+    <h2>H2 w pierwszym zagnieżdżonym div</h2>
+  </div>
+
+  <!-- 8. ostatni div z h2 -->
+  <div>
+    <h2>H2 w ostatnim div</h2>
+    <p>P bezpośrednio po h2 w ostatnim div</p> <!-- To ma być wybrane -->
+    <p>Kolejny paragraf (nie brany pod uwagę)</p>
+  </div>
 
 
     <div id="root"></div>

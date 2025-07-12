@@ -1,29 +1,3 @@
-
-:root{
-    --element-first:red;
-    --element-second:blue;
-    --element-thirth:green;
-}
-
-body{
-    font-size: 10px;
-}
-
-.element1{
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-    background: var(--element-first);
-}
-.element2{
-    width: 9.375em;
-    height: 9.375em;
-    margin: 0.625em;
-    background: var(--element-second);
-}
-.element3{
-    width: 9.375rem;
-    height: 9.375rem;
-    margin: 0.625em;
-    background: var(--element-thirth);
+div {
+    background-color: rgba(233, 255, 0, 0.50);
 }
